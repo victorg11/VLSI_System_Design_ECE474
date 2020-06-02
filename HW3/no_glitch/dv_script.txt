@@ -1,0 +1,2 @@
+read_sverilog no_glitch.sv
+compile
