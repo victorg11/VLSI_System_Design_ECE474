@@ -1,0 +1,11 @@
+read_sverilog addresser.sv
+read_sverilog average_sm.sv
+read_sverilog averager.sv
+read_sverilog buffer.sv
+read_sverilog header_chck.sv
+read_sverilog InputFSM.sv
+read_sverilog shiftReg.sv
+
+
+read_sverilog tas_top.sv
+compile

@@ -1,0 +1,219 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/nfs/stak/users/garciafv/ECE_474_VLSI/HW5_fixes
+vaddresser
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2>AZ`7;I[kKlKQNkZSS=92
+IGE@o2?X;Ab[O8P8nAii]02
+!s105 addresser_sv_unit
+S1
+R0
+w1589752483
+8addresser.sv
+Faddresser.sv
+L0 1
+Z3 OL;L;10.5;63
+Z4 !s108 1589754787.000000
+!s107 addresser.sv|
+!s90 addresser.sv|
+!i113 0
+Z5 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vaverager
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 5Aclc`d@5?U>h^>YPfe132
+I8LEQPRED?lCQRg^1C<z2_2
+!s105 averager_sv_unit
+S1
+R0
+w1589752117
+8averager.sv
+Faverager.sv
+L0 1
+R3
+R4
+!s107 averager.sv|
+!s90 averager.sv|
+!i113 0
+R5
+R6
+vaverager_SM
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 DHPB?j@:KTMVjiI9KXRlH0
+IdUghU5z3e6KfWA6bz95eh3
+!s105 average_sm_sv_unit
+S1
+R0
+w1589662327
+8average_sm.sv
+Faverage_sm.sv
+L0 1
+R3
+R4
+!s107 average_sm.sv|
+!s90 average_sm.sv|
+!i113 0
+R5
+R6
+naverager_@s@m
+vbuffer
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 d0cPWECGjdISme71_[4hH2
+IlSG;hc8B3WnaPf7Q6THK21
+!s105 buffer_sv_unit
+S1
+R0
+w1589753625
+8buffer.sv
+Fbuffer.sv
+L0 6
+R3
+R4
+!s107 buffer.sv|
+!s90 buffer.sv|
+!i113 0
+R5
+R6
+vdetect_header
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 gSP:hHAmLR5TP15XhEm2z3
+I?RS>4Zc0L`1BaDAV`WQbP3
+!s105 detect_header_sv_unit
+S1
+R0
+w1589613142
+8detect_header.sv
+Fdetect_header.sv
+L0 1
+R3
+R4
+!s107 detect_header.sv|
+!s90 detect_header.sv|
+!i113 0
+R5
+R6
+vinputFSM
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 >aPF5TTM[QD=VQQ1[@0640
+IEYn@PiNjl0H9XRiTnmd_=3
+!s105 InputFSM_sv_unit
+S1
+R0
+w1589750393
+8InputFSM.sv
+FInputFSM.sv
+L0 1
+R3
+Z7 !s108 1589754788.000000
+!s107 InputFSM.sv|
+!s90 InputFSM.sv|
+!i113 0
+R5
+R6
+ninput@f@s@m
+vshiftreg
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 R5?mK_SSYh19DjaZdfj6R0
+I`z>dz3SRYjmAE@F^OBaSG1
+!s105 shiftReg_sv_unit
+S1
+R0
+w1589750094
+8shiftReg.sv
+FshiftReg.sv
+L0 1
+R3
+R7
+!s107 shiftReg.sv|
+!s90 shiftReg.sv|
+!i113 0
+R5
+R6
+vtas
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 2>I:R8zVL=BVYV`B2TQlm1
+IVXLbe]^gC>j<>0`5SdoY70
+!s105 tas_top_sv_unit
+S1
+R0
+w1589742252
+8tas_top.sv
+Ftas_top.sv
+L0 1
+R3
+R7
+Z8 !s107 tb.sv|tas_top.sv|
+Z9 !s90 tas_top.sv|tb.sv|
+!i113 0
+R5
+R6
+vtb
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 khVO;:XcFM@^MaAX`j;A^1
+I<97GgA4lEN64EUf<_Waca1
+!s105 tb_sv_unit
+S1
+R0
+w1589743347
+8tb.sv
+Ftb.sv
+L0 1
+R3
+R7
+R8
+R9
+!i113 0
+R5
+R6
