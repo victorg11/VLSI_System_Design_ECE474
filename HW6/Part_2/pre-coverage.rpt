@@ -1,0 +1,18 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: GCD.sv
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           24        24         0     100.0
+    Branches                        20        20         0     100.0
+    FEC Condition Terms              0         0         0     100.0
+    FEC Expression Terms             0         0         0     100.0
+    FSMs                                                        85.0
+        States                       5         5         0     100.0
+        Transitions                 10         7         3      70.0
+
+
+Total Coverage By File (code coverage only, filtered view): 95.0%
+
