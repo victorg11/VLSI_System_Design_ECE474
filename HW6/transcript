@@ -1,0 +1,44 @@
+# vsim tb -novopt -c 
+# Start time: 22:42:36 on May 21,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  ModelSim SE-64 10.5 Feb 12 2016 Linux 3.10.0-1062.9.1.el7.x86_64
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing /nfs/stak/users/garciafv/ECE_474_VLSI/HW6/work.tb
+# Refreshing /nfs/stak/users/garciafv/ECE_474_VLSI/HW6/work.HW6_tb_sv_unit
+# Loading sv_std.std
+# Loading work.HW6_tb_sv_unit
+# Loading work.tb
+# Refreshing /nfs/stak/users/garciafv/ECE_474_VLSI/HW6/work.gcd
+# Loading work.gcd
+# ** Warning: (vsim-PLI-3691) HW6_tb.sv(134): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: HW6_tb.sv
+# t =               150000, in_a =       3430, in_b =       2060, result =         10
+# t =              1552000, in_a =       3435, in_b =    2342340, result =         15
+# t =              2140000, in_a =      13435, in_b =    3434290, result =          5
+# t =              2272000, in_a =   23232502, in_b =  343535354, result =          2
+# t =              3624000, in_a =       5975, in_b =    3859034, result =          1
+# t =              3756000, in_a =       1930, in_b =         34, result =          2
+# t =              3766000, in_a =         39, in_b =         13, result =         13
+# t =              3776000, in_a =          9, in_b =          3, result =          3
+# t =              3802000, in_a =         14, in_b =         92, result =          2
+# t =              3830000, in_a =        210, in_b =        124, result =          2
+# t =              4416000, in_a =     116150, in_b =     232704, result =        202
+# t =              4422000, in_a =          1, in_b =          1, result =          1
+# t =              4428000, in_a =          1, in_b =          1, result =          1
+# ** Note: $stop    : HW6_tb.sv(178)
+#    Time: 4430 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at HW6_tb.sv line 178
+# Stopped at HW6_tb.sv line 178
+# End time: 22:42:41 on May 21,2020, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
