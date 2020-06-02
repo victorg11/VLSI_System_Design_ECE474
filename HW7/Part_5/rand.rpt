@@ -1,0 +1,80 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /tb_sv_unit/cg_FSM                               100.0%        100    Covered              
+    covered/total bins:                                     8          8                      
+    missing/total bins:                                     0          8                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint cg_FSM::cp_ps                           100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint cg_FSM::cp_ns                           100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+ Covergroup instance \/tb/cg_FSM0                      100.0%        100    Covered              
+    covered/total bins:                                     8          8                      
+    missing/total bins:                                     0          8                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint cp_ps                                   100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        bin auto[TEST]                                    207          1    Covered              
+        bin auto[SWAP]                                     41          1    Covered              
+        bin auto[SUBT]                                    197          1    Covered              
+        bin auto[DONE]                                     34          1    Covered              
+    Coverpoint cp_ns                                   100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        bin auto[TEST]                                    207          1    Covered              
+        bin auto[SWAP]                                     41          1    Covered              
+        bin auto[SUBT]                                    197          1    Covered              
+        bin auto[DONE]                                     34          1    Covered              
+ TYPE /tb_sv_unit/cg_out                                25.0%        100    Uncovered            
+    covered/total bins:                                     1          4                      
+    missing/total bins:                                     3          4                      
+    % Hit:                                              25.0%        100                      
+    Coverpoint cg_out::cp_result                        25.0%        100    Uncovered            
+        covered/total bins:                                 1          4                      
+        missing/total bins:                                 3          4                      
+        % Hit:                                          25.0%        100                      
+ Covergroup instance \/tb/cg_out0                       25.0%        100    Uncovered            
+    covered/total bins:                                     1          4                      
+    missing/total bins:                                     3          4                      
+    % Hit:                                              25.0%        100                      
+    Coverpoint cp_result                                25.0%        100    Uncovered            
+        covered/total bins:                                 1          4                      
+        missing/total bins:                                 3          4                      
+        % Hit:                                          25.0%        100                      
+        bin rang1                                         479          1    Covered              
+        bin rang2                                           0          1    ZERO                 
+        bin rang3                                           0          1    ZERO                 
+        bin rang4                                           0          1    ZERO                 
+ TYPE /tb_sv_unit/cg_FSMtrans                          100.0%        100    Covered              
+    covered/total bins:                                     4          4                      
+    missing/total bins:                                     0          4                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint cg_FSMtrans::cp_trans                   100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+ Covergroup instance \/tb/cg_FSMtrans0                 100.0%        100    Covered              
+    covered/total bins:                                     4          4                      
+    missing/total bins:                                     0          4                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint cp_trans                                100.0%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                         100.0%        100                      
+        illegal_bin bad_trans                               0               ZERO                 
+        bin auto[TEST]                                    207          1    Covered              
+        bin auto[SWAP]                                     41          1    Covered              
+        bin auto[SUBT]                                    197          1    Covered              
+        bin auto[DONE]                                     34          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 75.0%  COVERGROUP TYPES: 3
