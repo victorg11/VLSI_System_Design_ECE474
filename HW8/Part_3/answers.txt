@@ -1,0 +1,4 @@
+The sensitivity list of the always block put inside the formal block should be posedge clk
+because all value changes happen at the rising edge of the clock.
+
+Note: My .sby files are found in the src folder

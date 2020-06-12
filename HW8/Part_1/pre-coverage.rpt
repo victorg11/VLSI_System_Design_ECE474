@@ -1,0 +1,33 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: src/gcd.sv
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           15        12         3      80.0
+    Branches                        11         8         3      72.7
+    FEC Condition Terms              0         0         0     100.0
+    FEC Expression Terms             0         0         0     100.0
+    FSMs                                                       100.0
+        States                       0         0         0     100.0
+        Transitions                  0         0         0     100.0
+
+=================================================================================
+=== File: src/gcd_ctrl.sv
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           14        10         4      71.4
+    Branches                        12         8         4      66.6
+    FEC Condition Terms              0         0         0     100.0
+    FEC Expression Terms             2         2         0     100.0
+    FSMs                                                        37.5
+        States                       4         2         2      50.0
+        Transitions                  8         2         6      25.0
+
+
+TOTAL COVERGROUP COVERAGE: 44.4%  COVERGROUP TYPES: 3
+
+Total Coverage By File (code coverage only, filtered view): 70.7%
+
